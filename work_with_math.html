@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function checkRanDOm1() {
+                var task1 = Math.floor(Math.random() * 11);
+                document.write(task1 +'<br>')
+        } checkRanDOm1()
+
+        function checkRanDOm2() {
+                var task2 = Math.floor(Math.random()*51)+50;
+               document.write(task2 + '<br>');
+        } checkRanDOm2()
+
+        function checkRanDOm3() {
+            var task3 = Math.floor(Math.random()*401);
+            document.write(task3 + '<br>');
+        } checkRanDOm3();
+
+        function findMin() {
+            var arr = [5, 7, 2, 9];
+            var min = Math.min.apply(Math, arr);
+            document.write('Min là : ' + min + '<br>');
+        } findMin();
+
+        function luyThua() {
+            var x= Math.pow(53,2);
+            document.write("lũy thừa của 53 là: " + x +'<br>');
+        } luyThua();
+
+        function Area (radius) {
+            var area = radius*Math.PI;
+            document.write('Area là: ' + area);
+        } Area(5);
+    </script>
+
+</body>
+</html>

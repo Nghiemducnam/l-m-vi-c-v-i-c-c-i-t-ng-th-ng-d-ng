@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <script>
+         var str = "Tôi yêu ngôn ngữ lập trình Javascript";
+         var count =0;
+         for(let i=0; i<str.length;i++) {
+             if(str.charAt(i)== 'a') {
+                 count++;
+             }
+         }
+         document.write("Chữ a xuất hiện " + count + " lần trong chuỗi" + "<br>");
+
+         var arr = str.split(" ")
+
+         var check=0;
+         for(let j=0; j<arr.length;j++) {
+             if(arr[j]!= -1) {
+                 check++
+             }
+         } document.write('Mảng: ' + arr+' có: ' + check + 'từ' + '<br>');
+
+         var replace = str.replace('Javascript','Typescript');
+         document.write('chuỗi sau thay thế là :'+ replace)
+     </script>
+
+</body>
+</html>
